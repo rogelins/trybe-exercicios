@@ -1,11 +1,12 @@
-chessPiece = "bishop";
+chessPiece = "biShop";
 
 bishop = "diagonals";
 rooks = "horizontally or vertically";
 
-if(stri == "Bishop") {
+if(chessPiece.toLowerCase() == "bishop") {
     console.log(bishop);
 }
 else {
     console.log("Invalid")
 }
+
